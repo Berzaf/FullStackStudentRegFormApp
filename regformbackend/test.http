@@ -1,0 +1,15 @@
+POST http://localhost:4000/app/registrationform
+Content-Type: application/json
+
+{
+    "lastName":"handy",
+    "firstName":"krist",
+    "email":"krist@mail.com",
+    "dob":"09/09/2000",
+    "phoneNumber":"0090987766",
+    "gender":"male",
+    "address":"3212 cle ave",
+    "city":"New york",
+    "state":"New York",
+    "course":"React"
+}
